@@ -20,7 +20,7 @@ namespace ECommerce.Common.Behaviours
                 return await next();
             }
 
-            // İstek için doğrulama bağlamı oluştur.
+            // İstek için doğrulama bağlamı oluştur....
             var context = new ValidationContext<TRequest>(request);
 
             // Tüm doğrulayıcıları asenkron olarak çalıştır ve sonuçları al.
